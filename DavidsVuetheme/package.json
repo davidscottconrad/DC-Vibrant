@@ -1,18 +1,30 @@
 {
-  "name": "DavidsVuetheme",
+  "name": "DC Vibrant",
   "displayName": "David's Vue Theme",
   "description": "a theme for vue",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "publisher": "DavidScottConrad",
   "engines": {
     "vscode": "^1.71.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidscottconrad/DC-Vibrant"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "DC Vibrant",
+    "Vibrant Theme",
+    "DavidScottConrad"
+  ],
   "contributes": {
     "themes": [
       {
-        "label": "davidsvuetheme",
+        "label": "DCVibrant",
         "uiTheme": "vs-dark",
         "path": "./themes/davidsvuetheme-color-theme.json"
       }
